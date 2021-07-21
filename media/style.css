@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2? family= Advent+Pro:wght@200 & family= Dancing+Script & display=swap');
+
+body{
+	font-family : trebuchet;
+	padding: 0;
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ li{
+ 	color: whitesmoke;
+ 	list-style-type: none;
+	transition: color 1s;
+ }
+ li a:hover{
+ 	transform: scale(1.05);
+ 	color: #223A59;
+ 	transition: 0.6 ease-in-out;
+ }
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+/* ***************navbar***************** */
+nav{
+	overflow: hidden;
+	background: #4D5D73;
+	position: fixed;
+	width: 100%;
+}
+header li{
+	float: right;
+	font-size: 1.2em;
+}
+header li a{
+	transition: color 1s;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+#logo{
+	font-family: 'Dancing Script', cursive;
+	color: #162D59;
+	font-weight: bold;
+	float: left;
+}
+/* *************home************** */
+#home{
+	padding-top: 80px;
+	background: url(pexels.jpeg) no-repeat fixed; 50% 50%;
+	background-size: cover;
+	height: 700px;
+}
+.text1{
+	font-family: 'Dancing Scrip', cursive;
+	text-align: center;
+	color: #0D0D0D;
+	font-size: 3em;
+	margin-top: 40px;
+	text-shadow: 1px 2px 3px lightskyblue;
+}
+.text2{
+	font-family: 'Dancing Scrip', cursive;
+	text-align: center;
+	color: #F2F2F2;
+	font-size: 3em;
+	margin-top: 40px;
+	text-shadow: 1px 2px 3px black;
+}
+.text3{
+	font-family: 'Dancing Scrip', cursive;
+	text-align: center;
+	color: #0D0D0D;
+	font-size: 3em;
+	margin-top: 40px;
+	text-shadow: 1px 2px 3px white;
+}
+#button-one{
+	text-align: center;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	border:2px solid crimson;
+	padding: 10px 40px;
+	margin: 60px 70px 100px 600px;
+	border-radius: 20px;
+	transition: color 1s;
+}
+#button-one:hover{
+	background-color: #223A59;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+/* **************about************* */
+#about{
+	background-color: #F2EFBD;
+	padding: 10px 0px 100px 0;
+}
+#title{
+	text-align: center;
+	padding: 0px 20px;
+	padding-top: 60px;
+}
+#about-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 6 0px;
+}
+#div-left{
+	width: 55%;
+}
+#div-left img{
+	height: 450px;
+	width: 400px;
+	margin: 50px 50px 0px 200px;
+	border-radius: 6px;
+	align-content: center;
+}
+#div-right{
+	width: 45%;
+}
+#div-right text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+#div-right text p{
+	font-size: 20px;
+	text-align: justify;
+}
+#button-two{
+	text-align: center;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	border:2px solid crimson;
+	padding: 10px 40px;
+	border-radius: 20px;
+	transition: color 1s;
+}
+#button-two:hover{
+	background-color: #223A59;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+
+/* **************teams*************** */
+#team{
+	height: 1400px;
+	background-color: whitesmoke;
+	padding: 10px 0px 100px 0;
+	padding: 1px 2%;
+}
+#title1{
+	padding: 0px 20px;
+	padding-top: 60px;
+}
+#text-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 6 0px;
+	padding: 30px 10%;
+}
+#membre-1{
+	background: url(portrait-1.jpeg) no-repeat;
+	border-radius: 15px;
+}
+#membre-2{
+	background: url(portrait-2.png) no-repeat;
+	border-radius: 15px;
+}
+#membre-3{
+	background: url(portrait-3.jpg) no-repeat;
+	border-radius: 15px;
+}
+#team li{
+	margin: 100px 100px 50px 100px;
+	height: 256px;
+	width: 40%;
+	max-width: 550px;
+	float: left;
+	
+}
+#team p{
+	height: 40px;
+	width: 200px;
+	background-color: skyblue;
+	float: right;
+	margin: 50px -0.px 0 0;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 15px;
+	box-shadow: 4px 4px 0 1px black;
+}
+#team #membre-1, #team #membre-3{
+	box-shadow: -4px 4px 0 1px royalblue;
+	background-color: burlywood;
+}
+#team #membre-2{
+	box-shadow: -4px 4px 0 1px steelblue;
+	float: right;
+}
+/* *********************contact**************** */
+footer{
+	background-color: brown;
+	color: white;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+form{
+	margin: 0 auto;
+	max-width: 900px;
+}
+h2{
+	text-align: center;
+	padding: 50px 50px;
+	padding-top: 70px;
+
+}
+input, textarea, button{
+	border: none;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	font-family: 'Advent Pro', sans-serif;
+	border-radius: 8px;
+}
+textarea{
+	height: 120px;
+}
+button{
+	font-size: 1.5em;
+	background-color: burlywood;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	color: white;
+	border:2px solid whitesmoke;
+	padding: 10px 40px;
+	border-radius: 20px;
+	transition: color 1s;
+}
+button:hover{
+	background-color: #223A59;
+	color: whitesmoke;
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+#Trait{
+	height: 2px;
+	width: 75%;
+	background-color: #223A59;
+	margin: 60px auto;
+}
+#copyrighteticons{
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0px 2%;
+}
+#copytight{
+	width: 50%;
+	text-align: left;
+	color: whitesmoke;
+}
+#icons{
+	width: 50%;
+	text-align: right;
+	padding: 0px 0px 0px 36%;
+}
+#icons a{
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 1.3em;
+	color: whitesmoke;
+	transition: color 1s;
+}
+#icons a:hover{
+	color: #223A59;
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: 0.4s ease-in-out;
+}
